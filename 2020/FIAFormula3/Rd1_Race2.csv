@@ -1,0 +1,31 @@
+Pos,No,Driver,Nat,Team,Laps,Time,Gap,Interval,Kph,Best,Lap
+1,5,Liam Lawson,New Zealand,Hitech Grand Prix,24,37:01.698,,,167.719,1:21.900,5
+2,17,Richard Verschoor,Netherlands,MP Motorsport,24,37:02.115,+ 0.417,+ 0.417,167.687,1:21.800,13
+3,26,Clément Novalak,Great Britain,Carlin Buzz Racing,24,37:03.000,+ 1.302,+ 0.885,167.621,1:22.144,6
+4,11,David Beckmann,Germany,Trident,24,37:03.337,+ 1.639,+ 0.337,167.595,1:22.074,4
+5,10,Lirim Zendeli,Germany,Trident,24,37:03.930,+ 2.232,+ 0.593,167.550,1:21.771,4
+6,2,Frederik Vesti,Denmark,Prema Racing,24,37:04.534,+ 2.836,+ 0.604,167.505,1:21.759,4
+7,8,Alexander Smolyar,Russia,ART Grand Prix,24,37:04.788,+ 3.090,+ 0.254,167.486,1:21.866,4
+8,1,Oscar Piastri,Australia,Prema Racing,24,37:05.149,+ 3.451,+ 0.361,167.459,1:21.513,4
+9,14,Enzo Fittipaldi,Brazil,HWA Racelab,24,37:05.796,+ 4.098,+ 0.647,167.410,1:21.530,10
+10,4,Max Fewtrell,Great Britain,Hitech Grand Prix,24,37:06.278,+ 4.580,+ 0.482,167.374,1:21.849,15
+11,18,Bent Viscaal,Netherlands,MP Motorsport,24,37:06.673,+ 4.975,+ 0.395,167.344,1:21.730,13
+12,15,Jake Hughes,Great Britain,HWA Racelab,24,37:07.135,+ 5.437,+ 0.462,167.309,1:21.720,10
+13,9,Sebastian Fernandez,Venezuela,ART Grand Prix,24,37:07.904,+ 6.206,+ 0.769,167.252,1:21.860,17
+14,19,Lukas Dunner,Austria,MP Motorsport,24,37:08.807,+ 7.109,+ 0.903,167.184,1:22.205,13
+15,25,David Schumacher,Germany,Charouz Racing System,24,37:10.197,+ 8.499,+ 1.390,167.080,1:22.405,14
+16,31,Sophia Flörsch,Germany,Campos Racing,24,37:10.857,+ 9.159,+ 0.660,167.030,1:22.271,13
+17,20,Calan Williams,Australia,Jenzer Motorsport,24,37:11.189,+ 9.491,+ 0.332,167.005,1:22.186,14
+18,22,Matteo Nannini,Italy,Jenzer Motorsport,24,37:11.562,+ 9.864,+ 0.373,166.977,1:22.299,14
+19,12,Olli Caldwell,,Trident,24,37:12.647,+ 10.949,+ 1.085,166.896,1:21.744,13
+20,30,Alessio Deledda,Italy,Campos Racing,24,37:13.086,+ 11.388,+ 0.439,166.863,1:22.413,13
+21,21,Federico Malvestiti,Italy,Jenzer Motorsport,24,37:13.748,+ 12.050,+ 0.662,166.814,1:22.267,9
+22,6,Dennis Hauger,Norway,Hitech Grand Prix,24,37:14.143,+ 12.445,+ 0.395,166.785,1:21.997,13
+23,23,Roman Stanek,Czech Republic,Charouz Racing System,24,37:14.887,+ 13.189,+ 0.744,166.729,1:22.329,13
+24,27,Enaam Ahmed,Great Britain,Carlin Buzz Racing,24,37:19.835,+ 18.137,+ 4.948,166.361,1:22.520,13
+25,24,Igor Fraga,Brazil,Charouz Racing System,24,37:32.536,+ 30.838,+ 12.701,165.423,1:22.068,13
+26,7,Théo Pourchaire,France,ART Grand Prix,24,37:41.935,+ 40.237,+ 9.399,164.735,1:21.908,4
+27,3,Logan Sargeant,USA,Prema Racing,23,37:20.159,1 Lap,1 Lap,159.397,1:21.795,14
+DNF,16,Jack Doohan,Australia,HWA Racelab,16,37:28.954,,,110.390,1:22.507,4
+DNF,29,Alex Peroni,Australia,Campos Racing,10,13:53.161,,,186.031,1:21.721,4
+DNF,28,Cameron Das,USA,Carlin Buzz Racing,5,7:44.984,,,166.178,1:23.591,3

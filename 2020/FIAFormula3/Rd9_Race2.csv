@@ -1,0 +1,29 @@
+Pos,No,Driver,Nat,Team,Laps,Time,Gap,Interval,Kph,Best,Lap
+1,5,Liam Lawson,New Zealand,Hitech Grand Prix,21,36:30.379,,,181.097,1:38.084,5
+2,11,David Beckmann,Germany,Trident,21,36:38.185,+ 7.806,+ 7.806,180.454,1:38.038,8
+3,7,Théo Pourchaire,France,ART Grand Prix,21,36:39.572,+ 9.193,+ 1.387,180.341,1:37.993,11
+4,14,Enzo Fittipaldi,Brazil,HWA Racelab,21,36:40.778,+ 10.399,+ 1.206,180.242,1:38.154,7
+5,17,Richard Verschoor,Netherlands,MP Motorsport,21,36:41.361,+ 10.982,+ 0.583,180.194,1:38.260,7
+6,15,Jake Hughes,Great Britain,HWA Racelab,21,36:42.815,+ 12.436,+ 1.454,180.075,1:38.417,8
+7,1,Oscar Piastri,Australia,Prema Racing,21,36:43.900,+ 13.521,+ 1.085,179.986,1:38.306,17
+8,9,Sebastian Fernandez,Venezuela,ART Grand Prix,21,36:43.943,+ 13.564,+ 0.043,179.983,1:38.179,9
+9,2,Frederik Vesti,Denmark,Prema Racing,21,36:45.359,+ 14.980,+ 1.416,179.867,1:37.879,7
+10,8,Alexander Smolyar,Russia,ART Grand Prix,21,36:49.779,+ 19.400,+ 4.420,179.508,1:38.398,6
+11,16,Jack Doohan,Australia,HWA Racelab,21,36:51.063,+ 20.684,+ 1.284,179.403,1:38.651,7
+12,6,Dennis Hauger,Norway,Hitech Grand Prix,21,36:52.091,+ 21.712,+ 1.028,179.320,1:38.530,7
+13,29,Alex Peroni,Australia,Campos Racing,21,36:52.614,+ 22.235,+ 0.523,179.278,1:38.635,7
+14,26,Clément Novalak,Great Britain,Carlin Buzz Racing,21,36:53.164,+ 22.785,+ 0.550,179.233,1:38.747,7
+15,22,Matteo Nannini,Italy,Jenzer Motorsport,21,36:53.635,+ 23.256,+ 0.471,179.195,1:38.640,8
+16,12,Olli Caldwell,,Trident,21,36:53.822,+ 23.443,+ 0.187,179.180,1:38.667,7
+17,19,Lukas Dunner,Austria,MP Motorsport,21,36:56.512,+ 26.133,+ 2.690,178.962,1:38.728,7
+18,23,Roman Stanek,Czech Republic,Charouz Racing System,21,36:59.455,+ 29.076,+ 2.943,178.725,1:38.978,8
+19,27,David Schumacher,Germany,Carlin Buzz Racing,21,37:01.220,+ 30.841,+ 1.765,178.583,1:38.418,7
+20,18,Bent Viscaal,Netherlands,MP Motorsport,21,37:01.309,+ 30.930,+ 0.089,178.576,1:38.979,9
+21,20,Calan Williams,Australia,Jenzer Motorsport,21,37:02.589,+ 32.210,+ 1.280,178.473,1:38.947,8
+22,21,Federico Malvestiti,Italy,Jenzer Motorsport,21,37:04.695,+ 34.316,+ 2.106,178.304,1:38.622,7
+23,25,Michael Belov,Russia,Charouz Racing System,21,37:05.182,+ 34.803,+ 0.487,178.265,1:39.020,9
+24,31,Sophia Flörsch,Germany,Campos Racing,21,37:05.663,+ 35.284,+ 0.481,178.226,1:39.056,9
+25,28,Cameron Das,USA,Carlin Buzz Racing,21,37:08.113,+ 37.734,+ 2.450,178.031,1:39.050,9
+26,30,Alessio Deledda,Italy,Campos Racing,21,37:25.863,+ 55.484,+ 17.750,176.623,1:39.248,8
+DNF,3,Logan Sargeant,USA,Prema Racing,,,,,,,
+DNF,10,Lirim Zendeli,Germany,Trident,,,,,,,

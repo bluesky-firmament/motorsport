@@ -1,0 +1,31 @@
+Pos,No,Driver,Nat,Team,Laps,Time,Gap,Interval,Kph,Best,Lap
+1,2,Frederik Vesti,Denmark,Prema Racing,11,19:29.657,,,145.802,1:33.358,3
+2,10,Lirim Zendeli,Germany,Trident,11,19:30.283,+ 0.626,+ 0.626,145.724,1:33.788,3
+3,11,David Beckmann,Germany,Trident,11,19:30.575,+ 0.918,+ 0.292,145.688,1:33.904,3
+4,1,Oscar Piastri,Australia,Prema Racing,11,19:31.355,+ 1.698,+ 0.780,145.591,1:34.087,3
+5,12,Olli Caldwell,,Trident,11,19:31.744,+ 2.087,+ 0.389,145.543,1:34.952,2
+6,3,Logan Sargeant,USA,Prema Racing,11,19:32.208,+ 2.551,+ 0.464,145.485,1:35.168,3
+7,17,Richard Verschoor,Netherlands,MP Motorsport,11,19:32.656,+ 2.999,+ 0.448,145.429,1:35.072,3
+8,5,Liam Lawson,New Zealand,Hitech Grand Prix,11,19:33.063,+ 3.406,+ 0.407,145.379,1:35.257,3
+9,7,Théo Pourchaire,France,ART Grand Prix,11,19:33.688,+ 4.031,+ 0.625,145.301,1:35.659,2
+10,15,Jake Hughes,Great Britain,HWA Racelab,11,19:34.093,+ 4.436,+ 0.405,145.251,1:34.892,4
+11,29,Alex Peroni,Australia,Campos Racing,11,19:34.639,+ 4.982,+ 0.546,145.184,1:36.109,2
+12,25,David Schumacher,Germany,Charouz Racing System,11,19:35.333,+ 5.676,+ 0.694,145.098,1:35.697,4
+13,9,Sebastian Fernandez,Venezuela,ART Grand Prix,11,19:35.731,+ 6.074,+ 0.398,145.049,1:35.900,2
+14,4,Max Fewtrell,Great Britain,Hitech Grand Prix,11,19:36.023,+ 6.366,+ 0.292,145.013,1:36.467,2
+15,14,Enzo Fittipaldi,Brazil,HWA Racelab,11,19:36.428,+ 6.771,+ 0.405,144.963,1:36.244,3
+16,19,Lukas Dunner,Austria,MP Motorsport,11,19:36.917,+ 7.260,+ 0.489,144.903,1:35.992,8
+17,23,Roman Stanek,Czech Republic,Charouz Racing System,11,19:37.533,+ 7.876,+ 0.616,144.827,1:36.522,7
+18,6,Dennis Hauger,Norway,Hitech Grand Prix,11,19:38.288,+ 8.631,+ 0.755,144.734,1:36.426,7
+19,27,Enaam Ahmed,Great Britain,Carlin Buzz Racing,11,19:38.976,+ 9.319,+ 0.688,144.650,1:36.148,7
+20,18,Bent Viscaal,Netherlands,MP Motorsport,11,19:39.440,+ 9.783,+ 0.464,144.593,1:36.341,7
+21,31,Sophia Flörsch,Germany,Campos Racing,11,19:40.388,+ 10.731,+ 0.948,144.477,1:37.079,3
+22,16,Jack Doohan,Australia,HWA Racelab,11,19:40.843,+ 11.186,+ 0.455,144.421,1:35.468,2
+23,22,Matteo Nannini,Italy,Jenzer Motorsport,11,19:41.472,+ 11.815,+ 0.629,144.344,1:37.116,2
+24,28,Cameron Das,USA,Carlin Buzz Racing,11,19:42.735,+ 13.078,+ 1.263,144.190,1:36.520,2
+25,20,Calan Williams,Australia,Jenzer Motorsport,11,19:43.188,+ 13.531,+ 0.453,144.135,1:34.924,2
+26,24,Igor Fraga,Brazil,Charouz Racing System,11,19:43.491,+ 13.834,+ 0.303,144.098,1:35.960,8
+27,30,Alessio Deledda,Italy,Campos Racing,11,19:44.846,+ 15.189,+ 1.355,143.933,1:35.937,3
+28,21,Federico Malvestiti,Italy,Jenzer Motorsport,11,19:45.344,+ 15.687,+ 0.498,143.873,1:36.128,2
+29,26,Clément Novalak,Great Britain,Carlin Buzz Racing,10,19:43.541,1 Lap,1 Lap,130.958,1:36.518,3
+DNF,8,Alexander Smolyar,Russia,ART Grand Prix,3,5:00.891,,,153.480,1:35.960,2

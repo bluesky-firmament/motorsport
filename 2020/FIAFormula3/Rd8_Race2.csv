@@ -1,0 +1,31 @@
+Pos,No,Driver,Nat,Team,Laps,Time,Gap,Interval,Kph,Best,Lap
+1,15,Jake Hughes,Great Britain,HWA Racelab,22,37:52.033,,,201.446,1:40.656,14
+2,7,Théo Pourchaire,France,ART Grand Prix,22,37:56.285,+ 4.252,+ 4.252,201.070,1:40.373,18
+3,8,Alexander Smolyar,Russia,ART Grand Prix,22,37:56.694,+ 4.661,+ 0.409,201.034,1:40.208,17
+4,10,Lirim Zendeli,Germany,Trident,22,37:57.433,+ 5.400,+ 0.739,200.968,1:40.664,12
+5,29,Alex Peroni,Australia,Campos Racing,22,38:00.492,+ 8.459,+ 3.059,200.699,1:40.468,7
+6,4,Pierre-Louis Chovet,France,Hitech Grand Prix,22,38:00.693,+ 8.660,+ 0.201,200.681,1:40.862,20
+7,5,Liam Lawson,New Zealand,Hitech Grand Prix,22,38:03.874,+ 11.841,+ 3.181,200.402,1:40.735,4
+8,23,Roman Stanek,Czech Republic,Charouz Racing System,22,38:04.156,+ 12.123,+ 0.282,200.377,1:40.713,16
+9,12,Olli Caldwell,,Trident,22,38:05.816,+ 13.783,+ 1.660,200.231,1:40.692,20
+10,17,Richard Verschoor,Netherlands,MP Motorsport,22,38:07.150,+ 15.117,+ 1.334,200.115,1:40.992,21
+11,9,Sebastian Fernandez,Venezuela,ART Grand Prix,22,38:08.380,+ 16.347,+ 1.230,200.007,1:40.957,19
+12,31,Sophia Flörsch,Germany,Campos Racing,22,38:15.294,+ 23.261,+ 6.914,199.405,1:41.347,20
+13,25,Michael Belov,Russia,Charouz Racing System,22,38:15.693,+ 23.660,+ 0.399,199.370,1:40.867,21
+14,21,Federico Malvestiti,Italy,Jenzer Motorsport,22,38:16.134,+ 24.101,+ 0.441,199.332,1:40.698,4
+15,6,Dennis Hauger,Norway,Hitech Grand Prix,22,38:17.209,+ 25.176,+ 1.075,199.238,1:41.569,8
+16,28,Cameron Das,USA,Carlin Buzz Racing,22,38:24.442,+ 32.409,+ 7.233,198.613,1:41.663,3
+17,24,Igor Fraga,Brazil,Charouz Racing System,22,39:10.551,+ 1:18.518,+ 46.109,194.717,1:40.500,3
+18,20,Calan Williams,Australia,Jenzer Motorsport,22,39:14.659,+ 1:22.626,+ 4.108,194.377,1:40.596,7
+19,14,Enzo Fittipaldi,Brazil,HWA Racelab,22,39:17.886,+ 1:25.853,+ 3.227,194.111,1:40.263,22
+20,22,Matteo Nannini,Italy,Jenzer Motorsport,21,38:24.742,1 Lap,1 Lap,189.538,1:41.055,4
+21,16,Jack Doohan,Australia,HWA Racelab,21,38:35.758,1 Lap,+ 11.016,188.637,1:40.634,5
+22,30,Alessio Deledda,Italy,Campos Racing,21,38:43.419,1 Lap,+ 7.661,188.015,1:41.621,3
+23,2,Frederik Vesti,Denmark,Prema Racing,20,34:48.155,2 Laps,1 Lap,199.211,1:40.829,6
+24,3,Logan Sargeant,USA,Prema Racing,19,33:21.938,3 Laps,1 Lap,197.373,1:40.366,15
+DSQ,18,Bent Viscaal,Netherlands,MP Motorsport,22,38:07.889,,,200.050,1:41.084,7
+DNF,26,Clément Novalak,Great Britain,Carlin Buzz Racing,10,17:55.621,,,192.851,1:40.081,5
+DNF,1,Oscar Piastri,Australia,Prema Racing,9,15:19.184,,,202.985,1:40.404,4
+DNF,27,David Schumacher,Germany,Carlin Buzz Racing,9,15:20.326,,,202.733,1:40.820,4
+DNF,11,David Beckmann,Germany,Trident,7,12:22.934,,,194.998,1:40.715,4
+DNF,19,Lukas Dunner,Austria,MP Motorsport,,,,,,,
