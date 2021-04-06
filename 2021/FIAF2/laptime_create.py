@@ -15,36 +15,89 @@ def export_list_csv(export_list, csv_dir):
             writer.writerow(export_list)
 
 def get_sec(time_str):
-    m, s = time_str.split(':')
-    return int(m) * 60 + s
+    split_time = time_str.split(':')
+    return float(split_time[0]) * 60 + float(split_time[1])
+
+def auto_mode(Rd):
+    drivers = ["Shwartzman","Piastri","Zhou","Drugovich","Ticktum","Daruvala","Lawson","Vips","Lundgaard","Pourchaire","Verschoor","Zendeli","Beckmann","Samaia","Nissany","Armstrong","Petecof","Boschung","Nannini","Deledda","Viscaal","Sato"]
+    # driver = input()
+    # print(driver)
+    print("レース?から記録しますか?(1or2or3)")
+    start = int(input())
+    for Race in range(start,4):
+        print("レース" + str(Race) + "のラップ数を入れてください")
+        Lap_iterator = int(input())
+        for driver in drivers:
+            i = 0
+            lap_list=[driver]
+            for Lap in range(Lap_iterator):
+                lap_list.append(None)
+            print(lap_list)
+            print("公式サイトから" + driver + "のレース" + str(Race) + "のラップタイムをペーストしてください(終了時やもしラップチャートがない場合はcを入力してください")
+            while i<100:
+                i = i + 1
+                lap = input()
+                if(lap == "c"):
+                    break
+                laptime = input()
+                if((i != 1) & (laptime == "")):
+                    break
+                laptime = laptime.lstrip()
+                # print(laptime)
+                try:
+                    laptime = get_sec(laptime)
+                except (ValueError,IndexError):
+                    continue
+                try:
+                    lap_list[i] = laptime
+                except ValueError:
+                    continue
+            print(lap_list)
+            csv_name = "./Rd" + Rd + "_" + "Race_" + str(Race) + "_" + driver + ".csv"
+            export_list_csv(lap_list, csv_name)
 
 
 def main():
     print("ラウンドを入れてください(数字のみ)")
     Rd = input()
-    print("何レースを入れてください(数字のみ)")
-    Race = input()
-    print("ドライバー名を入れてください")
-    driver = input()
-    print(driver)
-    i = 1
-    lap_list = [driver]
-    print("公式サイトからラップタイムをペーストしてください")
-    while i<100:
-        lap = input()
-        laptime = input()
-        if((i != 1) & (laptime == "")):
-            break
-        laptime = laptime.lstrip()
-        laptime = get_sec(laptime)
-        try:
-            lap_list.append(laptime)
-        except ValueError:
-            break
-        i = i + 1
-    print(lap_list)
-    csv_name = "./Rd" + Rd + "_Race" + "Race_" + driver + ".csv"
-    export_list_csv(lap_list, csv_name)
+    print("Autoモード(ドライバー名が自動で入力されるモード)にする場合はautoと入力してください")
+    mode_dicide = input()
+    if(mode_dicide == "auto"):
+        auto_mode(Rd)
+    else:
+        # Race = input()
+        print("ドライバー名を入れてください")
+        driver = input()
+        # print(driver)
+        for Race in range(1,4):
+            print("レース" + str(Race) + "のラップ数を入れてください")
+            Lap_iterator = int(input())
+            lap_list=[driver]
+            for Lap in range(Lap_iterator):
+                lap_list.append(None)
+            print(lap_list)
+            i = 0
+            print("公式サイトから" + driver + "のレース" + str(Race) + "のラップタイムをペーストしてください(終了時やもしラップチャートがない場合はcを入力してください")
+            while i<Lap_iterator:
+                i = i + 1
+                lap = input()
+                if(lap == "c"):
+                    break
+                laptime = input()
+                if((i > 1) & (laptime == "")):
+                    break
+                laptime = laptime.lstrip()
+                try:
+                    laptime = get_sec(laptime)
+                except (ValueError,IndexError):
+                    continue
+                try:
+                    lap_list[i] = laptime
+                except ValueError:
+                    continue
+            print(lap_list)
+            csv_name = "./Rd" + Rd + "_" + "Race_" + str(Race) + "_" + driver + ".csv"
+            export_list_csv(lap_list, csv_name)
 
     
 if __name__ == "__main__":
