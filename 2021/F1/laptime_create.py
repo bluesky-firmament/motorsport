@@ -2,6 +2,8 @@
 import csv
 import urllib
 from bs4 import BeautifulSoup
+import pandas as pd
+import glob
 
 def export_list_csv(export_list, csv_dir):
 
@@ -18,20 +20,11 @@ def get_sec(time_str):
     split_time = time_str.split(':')
     return float(split_time[0]) * 60 + float(split_time[1])
 
-def auto_mode(Rd):
-    drivers = ["Ricciardo","Norris","Vettel","Latifi","Raikkonen","Gasly","Perez","Alonso","Leclerc","Stroll","Tsunoda","Ocon","Verstappen","Hamilton","Shumacher","Sainz","Russell","Bottas","Giovinazzi"]
-    # driver = input()
-    # print(driver)
-    # print("レース?から記録しますか?(1or2or3)")
-    # start = int(input())
-    print("プラクティス?から記録しますか?(yes or no)")
-    practice = input()
-    if(practice == "yes"):
-        start = 1
-        for Race in range(start,4):
+def practice_mode(Rd,drivers):
+    for Race in range(1,4):
             # print("レースのラップ数を入れてください")
             # Lap_iterator = int(input())
-            Lap_iterator = 100
+            Lap_iterator = 50
             for driver in drivers:
                 i = 0
                 lap_list=[driver]
@@ -60,6 +53,8 @@ def auto_mode(Rd):
                 print(lap_list)
                 csv_name = "./Rd" + Rd + "_" + "Practice_" + str(Race) + "_" + driver + ".csv"
                 export_list_csv(lap_list, csv_name)
+
+def race_mode(Rd,drivers):
     start = 1
     for Race in range(start,2):
         print("レースのラップ数を入れてください")
@@ -93,6 +88,28 @@ def auto_mode(Rd):
             csv_name = "./Rd" + Rd + "_" + "Race_" + str(Race) + "_" + driver + ".csv"
             export_list_csv(lap_list, csv_name)
 
+def auto_mode(Rd):
+    drivers = ["Ricciardo","Norris","Vettel","Latifi","Raikkonen","Gasly","Perez","Alonso","Leclerc","Stroll","Tsunoda","Ocon","Verstappen","Hamilton","Shumacher","Sainz","Russell","Bottas","Giovinazzi"]
+    # driver = input()
+    # print(driver)
+    # print("レース?から記録しますか?(1or2or3)")
+    # start = int(input())
+    print("プラクティス?から記録しますか?(yes or no)")
+    practice = input()
+    if(practice == "yes"):
+        practice_mode(Rd,drivers)
+    race_mode(Rd,drivers)
+
+def manual_mode(Rd):
+    # Race = input()
+    print("ドライバー名を入れてください")
+    driver = input()
+    drivers = [driver]
+    print("プラクティス?から記録しますか?(yes or no)")
+    practice = input()
+    if(practice == "yes"):
+        practice_mode(Rd,drivers)
+    race_mode(Rd,drivers)
 
 def main():
     print("ラウンドを入れてください(数字のみ)")
@@ -102,40 +119,8 @@ def main():
     if(mode_dicide == "auto"):
         auto_mode(Rd)
     else:
-        # Race = input()
-        print("ドライバー名を入れてください")
-        driver = input()
-        # print(driver)
-        for Race in range(1,4):
-            print("レース" + str(Race) + "のラップ数を入れてください")
-            Lap_iterator = int(input())
-            lap_list=[driver]
-            for Lap in range(Lap_iterator):
-                lap_list.append(None)
-            print(lap_list)
-            i = 0
-            print("公式サイトから" + driver + "のレース" + str(Race) + "のラップタイムをペーストしてください(終了時やもしラップチャートがない場合はcを入力してください")
-            while i<Lap_iterator:
-                i = i + 1
-                lap = input()
-                if(lap == "c"):
-                    break
-                laptime = input()
-                if((i > 1) & (laptime == "")):
-                    break
-                laptime = laptime.lstrip()
-                try:
-                    laptime = get_sec(laptime)
-                except (ValueError,IndexError):
-                    continue
-                try:
-                    lap_list[i] = laptime
-                except ValueError:
-                    continue
-            print(lap_list)
-            csv_name = "./Rd" + Rd + "_" + "Race_" + str(Race) + "_" + driver + ".csv"
-            export_list_csv(lap_list, csv_name)
-
+        manual_mode(Rd)
+    
     
 if __name__ == "__main__":
     main()
