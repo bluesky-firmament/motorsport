@@ -21,7 +21,9 @@ def get_sec(time_str):
     return float(split_time[0]) * 60 + float(split_time[1])
 
 def practice_mode(Rd,drivers):
-    for Race in range(1,4):
+    print("どのプラクティスから入力しますか?(1 or 2 or 3)")
+    practice_number = int(input())
+    for Race in range(practice_number,4):
             # print("レースのラップ数を入れてください")
             # Lap_iterator = int(input())
             Lap_iterator = 50
@@ -89,7 +91,7 @@ def race_mode(Rd,drivers):
             export_list_csv(lap_list, csv_name)
 
 def auto_mode(Rd):
-    drivers = ["Ricciardo","Norris","Vettel","Latifi","Raikkonen","Gasly","Perez","Alonso","Leclerc","Stroll","Tsunoda","Ocon","Verstappen","Hamilton","Shumacher","Sainz","Russell","Bottas","Giovinazzi"]
+    drivers = ["Ricciardo","Norris","Vettel","Latifi","Raikkonen","Mazepin","Gasly","Perez","Alonso","Leclerc","Stroll","Tsunoda","Ocon","Verstappen","Hamilton","Shumacher","Sainz","Russell","Bottas","Giovinazzi"]
     # driver = input()
     # print(driver)
     # print("レース?から記録しますか?(1or2or3)")
