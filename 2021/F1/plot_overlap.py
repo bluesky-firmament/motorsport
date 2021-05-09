@@ -40,7 +40,8 @@ def plot(drivername,driver_lap,lap_number,round,race,iteration):
         plt.title(title)
         formula = drivername + ":y="+ coef + "+" + intercept
         plt.text(40, 100 + iteration * 0.5, formula, size=10)
-        plt.ylim(92,105)
+        plt.ylim(77.5,100)
+        plt.grid(color='r', linestyle='dotted', linewidth=1)
         figure_name = "Rd" + str(round) + "/Drivers_Race" + race + "_RacePace.png"
         plt.savefig(figure_name)
         # plt.show()
@@ -49,8 +50,8 @@ def plot(drivername,driver_lap,lap_number,round,race,iteration):
     
 
 # プロットするドライバーを選択
-# drivers = ["Tsunoda","Norris","Stroll"]
-drivers = ["Hamilton","Verstappen"]
+drivers = ["Mazepin","Shumacher"]
+# drivers = ["Gasly","Stroll","Raikkonen"]
 print("ラウンド数を入れてください")
 round = int(input())
 print("レース数を入れてください")

@@ -24,16 +24,20 @@ def plot(drivername,driver_lap,lap_number,round):
         coef = str(model.coef_)
         predicted = model.predict(input_lap_data)
         plt.scatter(lap_number,driver_lap)
-        plt.plot(input_lap_data, predicted, color = 'blue')
-        title = drivername + "_Race_Pace"
+        # plt.plot(input_lap_data, predicted, color = 'blue')
+        title = drivername + "_FP1_times"
         plt.title(title)
         formula = "y="+ coef + "+" + intercept
-        plt.text(55, 85, formula, size=10)
-        plt.ylim(80.0,95.0)
-        figure_name = "Rd" + str(round) + "/" + drivername + "_Race_Pace.png"
+        # plt.text(40, 100, formula, size=10)
+        plt.ylim(75.0,100.0)
+        plt.xlim(0.0,40.0)
+        plt.grid(which = 'major',axis='x',color='black',alpha=0.8,linestyle = "--")
+        plt.grid(which = 'major',axis='y',color='black',alpha=0.8,linestyle = "--")
+        figure_name = "Rd" + str(round) + "/" + drivername + "_FP1_Pace.png"
         plt.savefig(figure_name)
         # plt.show()
     except (ValueError,IndexError):
+        print("error")
         return
     
 
@@ -41,8 +45,8 @@ def plot(drivername,driver_lap,lap_number,round):
 
 print("ラウンド数を入れてください")
 round = int(input())
-file_name = 'Rd' + str(round) + '_Race_1_total.csv'
-# file_name = 'Rd3_pratice_1_total.csv'
+# file_name = 'Rd' + str(round) + '_Race_1_total.csv'
+file_name = 'Rd3_pratice_1_total.csv'
 f = open(file_name,'r')
 reader = csv.reader(f)
 lap_number=[]
